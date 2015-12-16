@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height ="match_parent"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="DATA ANDA"
+        android:textSize="30dip"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColorHighlight="#d6c7c7"
+        android:padding="10dp"
+        android:textStyle="bold"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="User Name"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Nama"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Password"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Alamat"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etAlamat"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Jenis Kelamin"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/etJekel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bUbah"
+        android:text="UBAH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
+
+
+
